@@ -42,7 +42,6 @@ async function getResults(filename) {
       "Cipla Ltd., a leading Indian pharma company, exports to 80+ countries and focuses on respiratory, oncology, and chronic care. With upcoming innovations in peptides, inhalers, and biosimilars, it is well-positioned for global growth in affordable healthcare and generics.";
   }
   const csvPath = path.join(
-    __dirname,
     "../resources",
     `${filename}_minute.csv`
   );

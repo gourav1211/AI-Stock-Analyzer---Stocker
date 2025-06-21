@@ -18,15 +18,11 @@ const Nav = () => {
         <NavLink to="/" className="px-2">
           Home
         </NavLink>
-        <NavLink to="/">
-          <a href="#about" className="px-2">
+        <NavLink to="/" className="px-2">
             About
-          </a>
         </NavLink>
-        <NavLink to="/">
-          <a href="#contact" className="px-2">
+        <NavLink to="/" className="px-2">
             Contact
-          </a>
         </NavLink>
         <NavLink to="/login" className="px-2">
           {name}
