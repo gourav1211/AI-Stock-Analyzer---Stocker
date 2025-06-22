@@ -8,7 +8,7 @@ const Hero = () => {
   };
   // bg-[#00063F]
   return (
-    <div className="px-3 pt-2 bg-[url(./3.jpg)] bg-cover bg-center bg-no-repeat text-white pb-3">
+    <div className="px-3 pt-2 bg-[url(/3.jpg)] bg-cover bg-center bg-no-repeat text-white pb-3">
       <div className="flex-row md:flex-col">
         <div className=" h-[20vh] md:h-84 flex items-center justify-center">
           <div className="">
