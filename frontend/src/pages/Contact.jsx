@@ -2,7 +2,7 @@ import React from "react";
 // bg-[#00063F]
 const Contact = () => {
   return (
-    <div className="px-3 mt-2 pt-4 pb-5  bg-[url(./3.jpg)] bg-no-repeat bg-cover bg-center text-white lg:h-120 lg:flex lg:justify-around">
+    <div className="px-3 mt-2 pt-4 pb-5  bg-[url(/3.jpg)] bg-no-repeat bg-cover bg-center text-white lg:h-120 lg:flex lg:justify-around">
       <div className="flex-row lg:flex lg:justify-between lg:items-center">
         <div className="lg:mr-120">
           <div className="flex justify-center">
