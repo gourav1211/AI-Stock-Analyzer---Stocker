@@ -71,7 +71,7 @@ function Login() {
             {/* Use display name if available */}
             <p>You are signed in.</p>
             <button
-              className="mt-3 border-1 px-4 py-2 rounded-4xl text-red-500 font-semibold hover:bg-red-500 hover:text-white active:scale-95 duration-75"
+              className="mt-3 border-1 px-4 py-2 rounded-4xl text-red-500 font-semibold hover:bg-red-500 hover:text-white active:scale-95 duration-75 cursor-pointer"
               onClick={handleSignOut}
             >
               Sign Out
@@ -91,7 +91,7 @@ function Login() {
                 {/* Add some spacing */}
                 <button
                   onClick={handleGoogleSignIn}
-                  class="px-4 py-2 border flex gap-2 border-slate-200  rounded-lg text-slate-700  hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900  hover:shadow transition duration-150"
+                  class="px-4 py-2 border flex gap-2 border-gray-700  rounded-lg text-slate-700  hover:border-slate-400 shadow-xl hover:text-slate-900  hover:shadow transition duration- cursor-pointer"
                 >
                   <img
                     class="w-6 h-6"
