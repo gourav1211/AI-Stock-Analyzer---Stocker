@@ -17,7 +17,7 @@ router.get("/result", async (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    res.status(500);
+    throw error
   }
 });
 
