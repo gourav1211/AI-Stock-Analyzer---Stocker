@@ -18,12 +18,7 @@ const Nav = () => {
         <NavLink to="/" className="px-2">
           Home
         </NavLink>
-        <NavLink to="/" className="px-2">
-            About
-        </NavLink>
-        <NavLink to="/" className="px-2">
-            Contact
-        </NavLink>
+        
         <NavLink to="/login" className="px-2">
           {name}
         </NavLink>
