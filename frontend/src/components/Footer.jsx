@@ -23,7 +23,7 @@ const Footer = () => {
         {/* Main Logo */}
         <div className="text-center">
           <h1 
-            className="text-6xl md:text-8xl lg:text-[12rem] xl:text-[16rem] font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent leading-none"
+            className="text-6xl md:text-8xl lg:text-[12rem] xl:text-[15rem] font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-emerald-400 bg-clip-text text-transparent leading-none"
             style={{ fontFamily: "Limelight" }}
           >
             STOCKER
