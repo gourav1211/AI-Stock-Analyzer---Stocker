@@ -4,7 +4,8 @@ dotenv.config();
 // const { brief } = require("./aggregate.js");
 
 const client = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.GEMINI_API_KEY,
+  baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
 });
 
 async function analyzeData(filename) {
@@ -13,7 +14,7 @@ async function analyzeData(filename) {
     const {results, brief} = await getResults(filename);
 
     const completion = await client.chat.completions.create({
-      model: "gpt-4o", 
+      model: "gemini-2.5-flash", 
       messages: [
         {
           role: "assistant",
@@ -29,7 +30,7 @@ async function analyzeData(filename) {
       ],
     });
 
-    // console.log(completion.choices[0].message.content);
+    console.log(completion.choices[0].message.content);
     return completion.choices[0].message.content;
   } catch (error) {
     console.log(error);
